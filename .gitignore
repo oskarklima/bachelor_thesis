@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+.python-version
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML generated outputs
+catboost_info/
+
+eda/*
+!eda/.gitkeep
+
+hyperparameter_tuning/**
+!hyperparameter_tuning/**/
+!hyperparameter_tuning/**/.gitkeep
+
+test_results/**
+!test_results/**/
+!test_results/**/.gitkeep
+
+# Huge data files
+data/accepted_2007_to_2018Q4.csv
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
