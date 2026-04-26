@@ -4,7 +4,7 @@ Tento repozitář obsahuje kód a Jupyter notebooky pro mou bakalářskou práci
 
 ## Jak projekt zprovoznit (pro Visual Studio Code)
 
-1. **Nainstalujte si nástroj `uv`**:
+1. **Nainstalujte si nástroj `uv` (pokud nemáte již instalováno)**:
    - Viz [oficiální návod](https://docs.astral.sh/uv/getting-started/installation/) nebo pomocí curl:
      ```bash
      curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
@@ -25,7 +25,7 @@ Tento repozitář obsahuje kód a Jupyter notebooky pro mou bakalářskou práci
 
 3. **Nainstalujte závislosti a vytvořte prostředí**:
 
-   Tento příkaz automaticky vytvoří složku `.venv` a nainstaluje přesně ty verze balíčků, které zaručují funkčnost kódu (podle `uv.lock`).
+   Tento příkaz automaticky vytvoří složku `.venv` a nainstaluje verze balíčků, které zaručují funkčnost kódu (podle `uv.lock`).
 
    ```bash
    uv sync --frozen
@@ -42,7 +42,7 @@ This repository contains the code and Jupyter notebooks for my bachelor's thesis
 
 ## Setup Instructions (for Visual Studio Code)
 
-1. **Install `uv`**:
+1. **Install `uv` (if not already installed)**:
    - Refer to the [official documentation](https://docs.astral.sh/uv/getting-started/installation/) or use curl:
      ```bash
      curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
@@ -63,7 +63,7 @@ This repository contains the code and Jupyter notebooks for my bachelor's thesis
 
 3. **Install Dependencies and Create Environment**:
 
-   This command automatically creates a `.venv` folder and installs the exact package versions required to ensure the code runs correctly (based on `uv.lock`).
+   This command automatically creates a `.venv` folder and installs package versions required to ensure the code runs correctly (based on `uv.lock`).
 
    ```bash
    uv sync --frozen
