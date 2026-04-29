@@ -150,7 +150,7 @@ requires-dist = [
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "setuptools", specifier = "<70" },
     { name = "sweetviz", specifier = ">=2.3.3" },
-    { name = "tabpfn-client", git = "https://github.com/PriorLabs/tabpfn-client.git?rev=georg%2Fenhanced_integration" },
+    { name = "tabpfn-client", git = "https://github.com/PriorLabs/tabpfn-client.git?rev=main" },
     { name = "xgboost", specifier = ">=3.2.0,<4.0" },
 ]
 
@@ -2257,7 +2257,7 @@ wheels = [
 [[package]]
 name = "tabpfn-client"
 version = "0.3.0rc1"
-source = { git = "https://github.com/PriorLabs/tabpfn-client.git?rev=georg%2Fenhanced_integration#90238efa0061c555b9790ca7d8c03a87348d7d8f" }
+source = { git = "https://github.com/PriorLabs/tabpfn-client.git?rev=main#edfce037a51237a0cb9cd74b9816198205813d74" }
 dependencies = [
     { name = "backoff" },
     { name = "google-crc32c" },

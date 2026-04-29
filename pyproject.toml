@@ -29,4 +29,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-tabpfn-client = { git = "https://github.com/PriorLabs/tabpfn-client.git", rev = "georg/enhanced_integration" }
+tabpfn-client = { git = "https://github.com/PriorLabs/tabpfn-client.git", rev = "main" }
