@@ -5,10 +5,7 @@ Tento repozitář obsahuje kód a Jupyter notebooky pro mou bakalářskou práci
 ## Jak projekt zprovoznit (pro Visual Studio Code)
 
 1. **Nainstalujte si nástroj `uv` (pokud nemáte již instalováno)**:
-   - Viz [oficiální návod](https://docs.astral.sh/uv/getting-started/installation/) nebo pomocí curl:
-     ```bash
-     curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
-     ```
+   - Viz [oficiální návod](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. **Získejte zdrojové kódy**:
 
@@ -43,10 +40,7 @@ This repository contains the code and Jupyter notebooks for my bachelor's thesis
 ## Setup Instructions (for Visual Studio Code)
 
 1. **Install `uv` (if not already installed)**:
-   - Refer to the [official documentation](https://docs.astral.sh/uv/getting-started/installation/) or use curl:
-     ```bash
-     curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh
-     ```
+   - Refer to the [official documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. **Get the Source Code**:
 
